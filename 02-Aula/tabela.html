@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/1465/1465618.png"
+    />
+  </head>
+  <body>
+    <h1>Vai ter uma tabela aqui jájá!</h1>
+
+    <table border = '5'>
+      <!-- Cabeçalho da tabela -->
+      <thead>
+        <tr>
+          <th>NOME</th>
+          <th>ITEM</th>
+          <th>QUANTIDADE</th>
+          <th>PREÇO</th>
+        </tr>
+      </thead>
+
+      <!-- Conteúdo da Tabela -->
+      <tbody>
+        <tr>
+          <td>Hatsune Miku</td>
+          <td>Microfone</td>
+          <td>1</td>
+          <td>360</td>
+        </tr>
+
+        <tr>
+          <td>Kagamine Rin</td>
+          <td>Blusa</td>
+          <td>1</td>
+          <td>250</td>
+        </tr>
+
+        <tr>
+          <td>Len</td>
+          <td>Vestido</td>
+          <td>7</td>
+          <td>900</td>
+        </tr>
+
+
+      <!-- Rodapé da Tabela -->
+      <!-- colspan = define a quantidade de colunas que será ocupada pela célua, a partir de sua origem-->
+      <tfoot>
+        <tr>
+          <td colspan="2">POÇO: DO CARONTE</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>A MESMA TABELA 2 </h2>
+    <table border="3" width="400px">
+      <tr>
+        <td colspan="3">TABELA</td>
+      </tr>
+      <tr>
+        <td colspan="3">TABELA 2 - O retorno</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Tabela 3</td>
+        <td colspan="2">Tabela 3.1</td>
+      </tr>
+      <tr>
+        <td >Tabela 4</td>
+        <td>Tabela 4.1</td>
+      </tr>
+    </table>
+  </body>
+</html>
