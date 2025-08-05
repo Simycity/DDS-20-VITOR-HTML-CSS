@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+
+    <!-- form = agregar informações em formulário pra tratar o envio -->
+    <form action="" method="">
+      <!-- Reserva uma área do formulário pra agregar -->
+      <fieldset>
+        <!-- Título para fieldset -->
+        <legend>DADOS DE LOGIN</legend>
+
+        <!-- Caixa de nome -->
+
+        <!-- label = texto para dizer o que colocar no input -->
+        <label for="caixaNome">Nome:</label>
+
+        <!-- input = tipo de iteração com usuário -->
+        <input
+          type="text"
+          id="caixaNome"
+          placeholder="Nome..."
+          maxlength="15"
+          minlength="3"
+        />
+
+        <br />
+        <hr />
+
+        <!-- Campo de email -->
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="Email"
+          id="email"
+          placeholder="Digite seu email"
+        />
+
+        <br />
+        <hr />
+
+        <!-- Campo de senha -->
+        <label for="senha">Senha:</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Digite sua senha..."
+          maxlength="10"
+        />
+        <p>OBS: Senha deve conter até 10 caracteres</p>
+
+        <hr />
+
+        <!-- Botão para enviar o formulário-->
+        <input type="submit" value="Login" />
+
+        <!-- Reset de Informações -->
+        <input type="reset" value="Resetar" />
+      </fieldset>
+    </form>
+
+    <!-- Outros inputs tops -->
+    <h1>Outros Inputs</h1>
+    <!-- Datas -->
+    <label for="data">Data:</label>
+
+    <br />
+
+    <input type="date" id="data" />
+
+    <br />
+
+    <input type="datetime" />
+
+    <br />
+
+    <input type="datetime-local" />
+
+    <br />
+
+    <input type="time" />
+
+    <br />
+    <hr />
+
+    <!-- Telefone -->
+    <label>
+      Telefone:
+      <input
+        type="tel"
+        name="Telefone"
+        id="telefone"
+        placeholder="(00) 0000-0000"
+      />
+    </label>
+
+    <br />
+    <hr />
+
+    <!-- Caixa Texto -->
+    <label>
+      Textão:
+      <textarea
+        name="textao"
+        id="textao"
+        placeholder="Digite sua bio"
+        cols="30"
+        rows="5"
+      ></textarea>
+    </label>
+
+    <hr />
+    <br />
+
+    <!-- Caixa Cor -->
+    <label>
+      Cor:
+      <input type="color" name="" id="" />
+    </label>
+
+    <hr />
+    <br />
+
+    <!-- Caixa número -->
+    <label>
+      Número:
+      <input type="number" min="-10" max="50" value="7" step="5" />
+    </label>
+
+    <hr />
+    <br />
+
+    <!-- Caixa de Barrinha -->
+    <label>
+      Barrinha:
+      <br />
+      0<input type="range" min="0" max="100" value="30" step="20" />100
+    </label>
+
+    <hr />
+    <br />
+
+    <!-- Caixa de Seleção  -->
+    <h1>Caixa de Seleção</h1>
+    <label for="curso"> Escolha seu curso </label>
+    <br />
+    <!-- Tipo boliha -->
+    <input type="radio" name="curso" value="Corte" /> Corte e Costura
+    <br />
+    <input type="radio" name="curso" value="Hack" /> Etical Hacking
+    <br />
+    <input type="radio" name="curso" value="Desing" /> Desing de Interiores
+
+    <br />
+    <hr />
+
+    <!-- Tipo Caixa -->
+    <label for="">Redes Sociais:</label>
+    <br />
+    <input type="checkbox" name="rede1" value="zap" /> Zap Zap
+    <br />
+    <input type="checkbox" name="rede2" value="face" /> Face
+    <br />
+    <input type="checkbox" name="rede3" value="desativado" /> Orkut
+
+    <br />
+    <hr />
+
+    <!-- Caixa de Seleção: várias opções -->
+    <label for="">Cidade:</label>
+    <select name="" id="">
+      <option value="Toquio">Tóquio</option>
+      <option value="Los Angeles">Los Angeles</option>
+      <option value="Doha">Doha</option>
+      <optgroup name="BR" label="Brasil">
+        <option value="Brasilia" selected>Brasília</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        <option value="Salvador">Salvador</option>
+      </optgroup>
+    </select>
+
+    <br />
+    <hr />
+
+    
+
+  </body>
+</html>
