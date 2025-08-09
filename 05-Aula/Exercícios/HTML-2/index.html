@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <!-- H1 para o Título -->
+    <h1>Formulário</h1>
+
+    <form>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+
+        <label for="caixaNome">Nome:</label>
+        <input
+          type="text"
+          id="caixaNome"
+          placeholder="Nome..."
+          maxlength="15"
+          minlength="3"
+        />
+
+        <br />
+        <br />
+
+        <label for="caixaEndereco">Endereço:</label>
+        <input type="text" id="caixaEndereco" placeholder="Endereço..." />
+
+        <br />
+        <br />
+
+        <label for="caixaCidade">Cidade:</label>
+        <input type="text" id="caixaCidade" placeholder="Cidade..." />
+
+        <br />
+        <br />
+
+        <label for="">Estado:</label>
+        <select name="" id="">
+          <option value="São Paulo">São Paulo</option>
+          <option value="Rio de Janeiro">Rio de Janeiro</option>
+          <option value="Espírito Santo">Espírito Santo</option>
+        </select>
+      </fieldset>
+
+      <br>
+      <br>
+
+
+      <fieldset>
+        <legend>Dados Profissionais</legend>
+
+        <label for="caixaCargo">Natureza do Cargo</label>
+        <br>
+        <input type="radio" name="cargo" value="gerencia" /> Gerência
+        <input type="radio" name="cargo" value="financeiro" /> Financeiro
+        <input type="radio" name="cargo" value="recepcao" /> Recepção
+        <input type="radio" name="cargo" value="adm" /> Administrativo
+        <input type="radio" name="cargo" value="juridico" /> Jurídico
+
+        <br><br>
+
+        <label for="caixaAreaInteresse">Área de Interesse</label>
+        <br />
+        <input type="checkbox" name="interesse1" value="comput" /> Computação
+        <input type="checkbox" name="interesse2" value="bio" /> Biologia  
+        <input type="checkbox" name="interesse3" value="MeioAmbiente" /> Meio Ambiente
+        <input type="checkbox" name="interesse4" value="engenharia" /> Engenharia
+        <input type="checkbox" name="interesse5" value="hist" /> História
+
+        <br><br>
+
+
+        <label>
+        Mini Currículo:
+        <textarea
+          name="textao"
+          id="textao"
+          placeholder="Digite sua bio"
+          cols="30"
+          rows="5"
+        ></textarea>
+      </label>
+      </fieldset>
+      
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Resetar" />
+    </form>
+
+
+
+
+  </body>
+</html>

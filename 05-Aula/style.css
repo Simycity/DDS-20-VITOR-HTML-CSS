@@ -1,0 +1,38 @@
+/* ESTILIZAÇÂO POR TAGS  */
+
+ul {
+  background-color: aqua;
+  list-style: none;
+  /* list-style-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeXKWOLQFtpN2fAheAObpWPgMSdGaE1WBzeA&s");
+  list-style-position: inside; */
+  
+}
+
+li{
+    color: white;
+    font-size: 30px;
+}
+
+
+h1 {
+  font-family: Impact, sans-serif;
+}
+
+/* ESTILIZAÇÂO POR ID  */
+#caixa-rosa {
+  background-color: pink;
+}
+
+#caixa-roxa {
+  background-color: purple;
+}
+
+/* ESTILIZAÇÂO POR CLASS  */
+.caixinha {
+  background-color: white;
+  color: black;
+  margin: 20px;
+  width: 200px;
+  height: 75px;
+  display: inline-block;
+}
