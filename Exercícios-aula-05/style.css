@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #bfbfbf; /* Cinza de fundo */
+    text-align: center;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header h1 {
+    color: white;
+}
+
+.main {
+    background-color: red;
+    padding: 20px;
+}
+
+.box {
+    background-color: green;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.box h2 {
+    color: darkgreen;
+}
+
+.box p {
+    color: black;
+}
+
+.footer {
+    background-color: #bfbfbf;
+    padding: 20px;
+}
+
+.footer p {
+    color: white;
+}
