@@ -1,0 +1,15 @@
+body{
+    background-color: yellow;
+}
+
+
+.sete{
+    width: 90%;
+    margin: auto;
+    height: 1500px;
+    background-image: url("https://i.pinimg.com/736x/c6/ed/79/c6ed7938baf389cb1e8b94d15ba2f6f4.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}

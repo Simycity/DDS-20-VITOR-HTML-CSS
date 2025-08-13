@@ -1,0 +1,24 @@
+#um{
+    color: red;
+    font-family: Arial, sans-serif;
+}
+
+#dois{
+    color: green;
+    font-family: 'Times', sans-serif;
+    font-size: 22px;
+}
+
+#tres{
+    color: blue;
+    font-family: 'Comic Sans Serif';
+    font-size: 20px;
+    font-style: italic;
+}
+
+#quatro{
+    color: darkorange;
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    font-weight: bold 500;
+}
